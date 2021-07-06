@@ -129,4 +129,4 @@ echo "https://github.com/Avocado-Network/avocado-blockchain/wiki/Quick-Start-Gui
 echo ""
 echo "To install the GUI type 'sh install-gui.sh' after '. ./activate'."
 echo ""
-echo "Type '. ./activate' and then 'sector init' to begin."
+echo "Type '. ./activate' and then 'avocado init' to begin."
