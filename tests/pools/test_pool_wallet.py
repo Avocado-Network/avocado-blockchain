@@ -5,15 +5,15 @@ from typing import List
 import pytest
 from blspy import PrivateKey
 
-from chia.pools.pool_wallet import PoolWallet
-from chia.pools.pool_wallet_info import PoolState, FARMING_TO_POOL
-from chia.simulator.simulator_protocol import FarmNewBlockProtocol
-from chia.types.coin_solution import CoinSolution
-from chia.types.full_block import FullBlock
-from chia.types.peer_info import PeerInfo
-from chia.util.ints import uint16, uint32
-from chia.wallet.derive_keys import master_sk_to_singleton_owner_sk
-from chia.wallet.wallet_state_manager import WalletStateManager
+from avocado.pools.pool_wallet import PoolWallet
+from avocado.pools.pool_wallet_info import PoolState, FARMING_TO_POOL
+from avocado.simulator.simulator_protocol import FarmNewBlockProtocol
+from avocado.types.coin_solution import CoinSolution
+from avocado.types.full_block import FullBlock
+from avocado.types.peer_info import PeerInfo
+from avocado.util.ints import uint16, uint32
+from avocado.wallet.derive_keys import master_sk_to_singleton_owner_sk
+from avocado.wallet.wallet_state_manager import WalletStateManager
 from tests.setup_nodes import self_hostname, setup_simulators_and_wallets
 
 

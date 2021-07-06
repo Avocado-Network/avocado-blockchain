@@ -4,14 +4,14 @@ from secrets import token_bytes
 from blspy import AugSchemeMPL, PrivateKey
 from clvm_tools import binutils
 
-from chia.consensus.default_constants import DEFAULT_CONSTANTS
-from chia.types.blockchain_format.program import Program, INFINITE_COST
-from chia.types.condition_opcodes import ConditionOpcode
-from chia.types.condition_with_args import ConditionWithArgs
-from chia.util.ints import uint32
+from avocado.consensus.default_constants import DEFAULT_CONSTANTS
+from avocado.types.blockchain_format.program import Program, INFINITE_COST
+from avocado.types.condition_opcodes import ConditionOpcode
+from avocado.types.condition_with_args import ConditionWithArgs
+from avocado.util.ints import uint32
 from tests.wallet_tools import WalletTool
-from chia.wallet.derive_keys import master_sk_to_wallet_sk
-from chia.wallet.puzzles.p2_delegated_puzzle import puzzle_for_pk
+from avocado.wallet.derive_keys import master_sk_to_wallet_sk
+from avocado.wallet.puzzles.p2_delegated_puzzle import puzzle_for_pk
 
 
 def float_to_str(f):
