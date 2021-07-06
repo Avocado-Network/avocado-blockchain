@@ -75,7 +75,7 @@ async def create(args: dict, wallet_client: WalletRpcClient, fingerprint: int) -
                 target_puzzle_hash,
                 pool_url,
                 relative_lock_height,
-                "localhost:5000",
+                "localhost:7700",
                 "new",
                 state,
             )
