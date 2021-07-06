@@ -87,7 +87,7 @@ def configure(
             print("Setting Testnet")
             testnet_port = "57865"
             testnet_introducer = "beta1_introducer.avocadonetwork.net"
-            testnet = "testnet7"
+            testnet = "testnet0"
             config["full_node"]["port"] = int(testnet_port)
             config["full_node"]["introducer_peer"]["port"] = int(testnet_port)
             config["farmer"]["full_node_peer"]["port"] = int(testnet_port)
