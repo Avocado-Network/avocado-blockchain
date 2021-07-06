@@ -11,7 +11,7 @@ testnet_kwargs = {
     # DIFFICULTY_STARTING is the starting difficulty for the first epoch, which is then further
     # multiplied by another factor of DIFFICULTY_CONSTANT_FACTOR, to be used in the VDF iter calculation formula.
     "DIFFICULTY_CONSTANT_FACTOR": 2 ** 67,
-    "DIFFICULTY_STARTING": 16,
+    "DIFFICULTY_STARTING": 18,
     "DIFFICULTY_CHANGE_MAX_FACTOR": 3,  # The next difficulty is truncated to range [prev / FACTOR, prev * FACTOR]
     # These 3 constants must be changed at the same time
     "SUB_EPOCH_BLOCKS": 384,  # The number of blocks per sub-epoch, mainnet 384
@@ -32,10 +32,10 @@ testnet_kwargs = {
     # Forks of avocado should change this value to provide replay attack protection. This is set to mainnet genesis chall
     "AGG_SIG_ME_ADDITIONAL_DATA": bytes.fromhex("973ddbed6ba5f961c6fac579046afdc54cada260f14652a2f3fd643f60086e1d"),
     "GENESIS_PRE_FARM_POOL_PUZZLE_HASH": bytes.fromhex(
-        "d23da14695a188ae5708dd152263c4db883eb27edeb936178d4d988b8f3ce5fc"
+        "555c39a47f64a438dc3d995364c9b81347375677febd39dfe6cf8c286f2ced06"
     ),
     "GENESIS_PRE_FARM_FARMER_PUZZLE_HASH": bytes.fromhex(
-        "3d8765d3a597ec1d99663f6c9816d915b9f68613ac94009884c4addaefcce6af"
+        "555c39a47f64a438dc3d995364c9b81347375677febd39dfe6cf8c286f2ced06"
     ),
     "MAX_VDF_WITNESS_SIZE": 64,
     # Size of mempool = 50x the size of block

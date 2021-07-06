@@ -8,8 +8,8 @@ from avocado.util.bech32m import decode_puzzle_hash, encode_puzzle_hash
 from avocado.util.condition_tools import parse_sexp_to_conditions
 from avocado.util.ints import uint32
 
-address1 = "tavo15gx26ndmacfaqlq8m0yajeggzceu7cvmaz4df0hahkukes695rss6lej7h"  # Gene wallet (m/12381/8444/2/42):
-address2 = "tavo1c2cguswhvmdyz9hr3q6hak2h6p9dw4rz82g4707k2xy2sarv705qcce4pn"  # Mariano address (m/12381/8444/2/0)
+address1 = "avo124wrnfrlvjjr3hpan9fkfjdczdrnw4nhl67nnhlxe7xzsmeva5rqxwkx8k"  # Gene wallet (m/12381/8444/2/42):
+address2 = "avo124wrnfrlvjjr3hpan9fkfjdczdrnw4nhl67nnhlxe7xzsmeva5rqxwkx8k"  # Mariano address (m/12381/8444/2/0)
 
 ph1 = decode_puzzle_hash(address1)
 ph2 = decode_puzzle_hash(address2)
