@@ -6,20 +6,20 @@ from typing import List, Optional, Set, Tuple
 import aiosqlite
 import pytest
 
-from avocado.consensus.block_rewards import calculate_base_farmer_reward, calculate_pool_reward
-from avocado.consensus.blockchain import Blockchain, ReceiveBlockResult
-from avocado.consensus.coinbase import create_farmer_coin, create_pool_coin
-from avocado.full_node.block_store import BlockStore
-from avocado.full_node.coin_store import CoinStore
-from avocado.full_node.mempool_check_conditions import get_name_puzzle_conditions
-from avocado.types.blockchain_format.coin import Coin
-from avocado.types.coin_record import CoinRecord
-from avocado.types.full_block import FullBlock
-from avocado.types.generator_types import BlockGenerator
-from avocado.util.generator_tools import tx_removals_and_additions
-from avocado.util.ints import uint64, uint32
+from chia.consensus.block_rewards import calculate_base_farmer_reward, calculate_pool_reward
+from chia.consensus.blockchain import Blockchain, ReceiveBlockResult
+from chia.consensus.coinbase import create_farmer_coin, create_pool_coin
+from chia.full_node.block_store import BlockStore
+from chia.full_node.coin_store import CoinStore
+from chia.full_node.mempool_check_conditions import get_name_puzzle_conditions
+from chia.types.blockchain_format.coin import Coin
+from chia.types.coin_record import CoinRecord
+from chia.types.full_block import FullBlock
+from chia.types.generator_types import BlockGenerator
+from chia.util.generator_tools import tx_removals_and_additions
+from chia.util.ints import uint64, uint32
 from tests.wallet_tools import WalletTool
-from avocado.util.db_wrapper import DBWrapper
+from chia.util.db_wrapper import DBWrapper
 from tests.setup_nodes import bt, test_constants
 
 

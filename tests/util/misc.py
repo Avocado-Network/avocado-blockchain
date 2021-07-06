@@ -1,6 +1,6 @@
 import pytest
-from avocado.util.misc import format_bytes
-from avocado.util.misc import format_minutes
+from chia.util.misc import format_bytes
+from chia.util.misc import format_minutes
 
 
 class TestMisc:

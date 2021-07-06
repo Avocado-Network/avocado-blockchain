@@ -14,18 +14,18 @@ from blspy import G2Element
 
 from clvm_tools.binutils import assemble
 
-from avocado.consensus.blockchain import ReceiveBlockResult
-from avocado.consensus.constants import ConsensusConstants
-from avocado.types.announcement import Announcement
-from avocado.types.blockchain_format.program import Program
-from avocado.types.coin_record import CoinRecord
-from avocado.types.coin_solution import CoinSolution
-from avocado.types.condition_opcodes import ConditionOpcode
-from avocado.types.full_block import FullBlock
-from avocado.types.spend_bundle import SpendBundle
+from chia.consensus.blockchain import ReceiveBlockResult
+from chia.consensus.constants import ConsensusConstants
+from chia.types.announcement import Announcement
+from chia.types.blockchain_format.program import Program
+from chia.types.coin_record import CoinRecord
+from chia.types.coin_solution import CoinSolution
+from chia.types.condition_opcodes import ConditionOpcode
+from chia.types.full_block import FullBlock
+from chia.types.spend_bundle import SpendBundle
 from tests.block_tools import BlockTools, test_constants
-from avocado.util.errors import Err
-from avocado.util.ints import uint32
+from chia.util.errors import Err
+from chia.util.ints import uint32
 
 from .ram_db import create_ram_blockchain
 

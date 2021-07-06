@@ -1,6 +1,6 @@
 import pytest
 
-from avocado.wallet.chialisp import (
+from chia.wallet.chialisp import (
     apply,
     args,
     cons,
@@ -17,7 +17,7 @@ from avocado.wallet.chialisp import (
 )
 
 
-class TestAvocadolisp:
+class TestChialisp:
     def test_sexp(self):
         assert sexp() == "()"
         assert sexp(1) == "(1)"
