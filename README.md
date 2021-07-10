@@ -40,5 +40,5 @@ I have spent and will continue to spend many hours building Avocado, but time is
 
 -avocadot1.avocadonetwork.net:6865
 -avocadot2.avocadonetwork.net:6865
--avocadot3.avocadonetowrk.net:6865
+-avocadot3.avocadonetwork.net:6865
 
