@@ -12,6 +12,10 @@ For those of you that participated in the testnet I thank you. You will need to 
 - rpc_port: 6759 has been changed to rpc_port: 6749 due to conflix with flax - thank you alsipsclar from discord
 - Premine is 250,000
 
+## Windows Installation
+
+- https://github.com/Avocado-Network/avocado-blockchain/releases/tag/Mainnet
+
 ## Linux Installation
 
 ```sh
